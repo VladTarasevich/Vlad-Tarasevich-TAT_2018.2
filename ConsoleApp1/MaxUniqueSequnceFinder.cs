@@ -10,7 +10,7 @@ class MaxUniqueSequnceFinder
         string input = Console.ReadLine();
         if (input == "")
         {
-            Console.WriteLine($"Строка пуста.Попробуйте снова.");
+            Console.WriteLine("Строка пуста.Попробуйте снова.");
         }
         int counter = 0;
         String unique = "";
